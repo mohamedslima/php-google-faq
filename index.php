@@ -37,8 +37,8 @@
     </header>
     <main>
         <!-- array google faq -->
-        <?php 
-        
+        <?php
+
         $faq = [
             [
                 "question" => "Come state implementando la recente decisione della Corte di giustizia 
@@ -97,9 +97,15 @@
                 ",
             ],
         ];
-        var_dump($faq);
-
         ?>
+        <div class="container">
+            <?php
+            foreach ($faq as $item) { ?>
+                <h2 class="title"><?php echo $item["question"]; ?></h2>
+                <p class="paragraph"><?php echo $item["answer"]; ?></p>
+            <?php }; ?>
+        </div>
+
     </main>
 </body>
 

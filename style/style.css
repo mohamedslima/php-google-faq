@@ -46,3 +46,18 @@ ul.header-menu > li:hover {
     color: #3367d6;
     transition: .3s;
 }
+
+/* MAIN */
+
+div.container {
+    width: 75%;
+    margin: 20px auto;
+}
+
+div.container > h2 {
+    margin: 20px 0;
+}
+
+div.container > p {
+    line-height: 2rem;
+}
