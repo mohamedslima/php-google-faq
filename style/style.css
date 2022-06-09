@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header > div.header-top {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 1rem auto;
+}
+
+div.header-logo img {
+    width: 60%;
+}
+
+div.header-user img {
+    border-radius: 50px;
+    width: 45px;
+}
+
+ul.header-menu {
+    list-style: none;
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+ul.header-menu > li {
+    margin-right: 2rem;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+ul.header-menu > li:hover {
+    padding-bottom: 6px;
+    border-bottom: 3px solid #3367d6;
+    color: #3367d6;
+    transition: .3s;
+}
